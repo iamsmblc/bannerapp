@@ -61,7 +61,6 @@ def process_image(input_path,input_path_logo,text_input,button_text,hex_code):
         corner_radius = 20
         path_ttf="timr45w.ttf"
         size_val=300
-        #input format is changed by check_ai,check_ai==True if stable-diffusion model is used
         response = requests.get(input_image_path)
     
    # Check if the request was successful
