@@ -28,6 +28,7 @@ Generate a Stable Diffusion Image:
 Send a POST request to the following endpoint:
 [POST] http://localhost:xxx/get-diff
 Include the required input key and any additional requirements as specified by the API.
+
 <img width="525" alt="Untitled0" src="https://github.com/iamsmblc/bannerapp/assets/70532406/ae1b6e0f-df1e-42e3-a098-8d100beef0a2">
 
 
