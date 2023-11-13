@@ -184,7 +184,7 @@ def process_sd_image_procedure(file_input, prompt_input,hex_input):
         
         user_name = "iamsmblc"
         repo_name = "images"
-        github_token = "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"
+        github_token = ""
         hex_color_code = hex_input
         rgb_values = hex_to_rgb(hex_color_code)
         color_name = rgb_to_color_name(rgb_values)
