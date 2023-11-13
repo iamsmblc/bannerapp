@@ -49,9 +49,13 @@ sample inputs and output
 inputs
 
 file_diff
+
+
 ![cup_input](https://github.com/iamsmblc/bannerapp/assets/70532406/440680ac-022f-4dc5-b907-bed172c7f5a9)
 
 file_logo
+
+
 ![logo](https://github.com/iamsmblc/bannerapp/assets/70532406/0ab7fce2-beb9-48f9-adb6-4a5f27bea89d)
 
 text_input
