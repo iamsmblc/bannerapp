@@ -16,8 +16,6 @@ import json
 import uuid
 
 app = Flask(__name__, static_folder='static')
-
-# stable-diffusion model pipline
  
 
 ALLOWED_EXTENSIONS = {'png'}
@@ -66,9 +64,9 @@ def process_image(input_path,input_path_logo,text_input,button_text,hex_code):
         #input format is changed by check_ai,check_ai==True if stable-diffusion model is used
         response = requests.get(input_image_path)
     
-    # İsteğin başarılı olup olmadığını kontrol et
+   # Check if the request was successful
         if response.status_code == 200:
-        # BytesIO nesnesine dönüştür
+      # Convert to BytesIO object
          img = Image.open(BytesIO(response.content)).convert("RGBA")
         
         rgb_values = hex_to_rgb(hex_color_code)
@@ -245,7 +243,7 @@ def process_sd_image_procedure(file_input, prompt_input,hex_input):
         return image_url
 
     except :
-     return "Please re-upload the images and try again."
+     return "Please re-upload the image and try again."
     
 
 #banner without stable-diffusion model image
@@ -295,7 +293,7 @@ def process_sd_image():
 
         return send_file(img_byte_array, mimetype='image/png')
     except:  
-       return "Please re-upload the images and try again." 
+       return "Please re-upload the image and try again." 
 
  #banner with stable-diffusion model image- 
 @app.route('/get-result', methods=['POST'])
