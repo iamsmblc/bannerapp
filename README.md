@@ -26,24 +26,14 @@ Generate a Stable Diffusion Image:
 Send a POST request to the following endpoint:
 [POST] http://localhost:xxx/get-diff
 Include the required input key and any additional requirements as specified by the API.
+<img width="525" alt="Untitled0" src="https://github.com/iamsmblc/bannerapp/assets/70532406/ae1b6e0f-df1e-42e3-a098-8d100beef0a2">
 
-key                           type             value
-file_diff                    file              The image you want to transform into stable diffusion
-
-hex_diff                     text              hex code of the color to be used in the image
-prompt                       text              prompt text
 
 Send a POST request to the following endpoint:
 [[POST] http://localhost:xxx/get-diff](http://localhost:xxx:/get-result)
 
-key                           type             value
-file_diff                    file              The image you want to transform into stable diffusion
-file_logo                    file              logo
-text_input                   text              Punchline text
-hex_input                    text              color for banner
-button_text_input            text              button text
-hex_diff                     text              hex code of the color to be used in the image
-prompt                       text              prompt text
+<img width="540" alt="Untitled1" src="https://github.com/iamsmblc/bannerapp/assets/70532406/cbad9b0e-785b-4076-bd32-91bca68c9103">
+
 
 sample inputs and output
 inputs
