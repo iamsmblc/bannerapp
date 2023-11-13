@@ -59,18 +59,28 @@ file_logo
 ![logo](https://github.com/iamsmblc/bannerapp/assets/70532406/0ab7fce2-beb9-48f9-adb6-4a5f27bea89d)
 
 text_input
+
+
 this is a test
 
 hex_input
+
+
 #f5ef42
 
 button_text_input
+
+
 buton text
 
 hex_diff
+
+
 #f5ef42
 
 prompt
+
+
 flowers on cup
 
 output
