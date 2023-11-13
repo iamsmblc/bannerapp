@@ -2,6 +2,8 @@
 Banner App
 
 Flask API with Stable Diffusion Image Generation
+
+
 This Flask API implementation utilizes the stable diffusion model from the img2img model to generate banners based on user input. Follow the steps below to set up and run the application.
 
 Requirements
