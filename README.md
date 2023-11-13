@@ -30,7 +30,7 @@ Include the required input key and any additional requirements as specified by t
 
 
 Send a POST request to the following endpoint:
-[[POST] http://localhost:xxx/get-diff](http://localhost:xxx:/get-result)
+[POST] http://localhost:xxx:/get-result
 
 <img width="540" alt="Untitled1" src="https://github.com/iamsmblc/bannerapp/assets/70532406/cbad9b0e-785b-4076-bd32-91bca68c9103">
 
